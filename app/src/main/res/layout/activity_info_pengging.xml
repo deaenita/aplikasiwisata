@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.boyolalismartcity.InfoPengging">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UMBUL PENGGING"
+                android:textSize="20dp"
+                android:textColor="#212F3C"
+                android:layout_gravity="center"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/pengging"
+                android:layout_marginTop="10dp"/>
+            <ImageView
+                android:id="@+id/iv_pano_pengging"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:src="@drawable/button_pano"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#212F3C"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Umbul Pengging adalah sebuah kompleks pemandian peninggalan Kasunanan Surakarta terletak di Desa Dukuh, Kecamatan Banyudono, Kabupaten Boyolali, Provinsi Jawa Tengah, Indonesia. Pemandian ini dibangun oleh Raja Kasunanan Surakarta yaitu Sri Paduka Pakubuwono X.
+
+Menurut cerita masyarakat setempat, pada awalnya pemandian ini merupakan tempat bersantai raja dan keluarganya. Hal ini tampak dari bangunan tempat peristirahatan yang berada di dekat kolam pemandian ini. Pada zaman dahulu, pemandian ini tidak dibuka untuk masyarakat umum. Namun seiring berjalannya waktu, Pemandian Umbul Pengging kini bebas dimasuki setiap pengunjung yang ingin menikmati keindahan pemandangan taman dan kesejukan airnya. Umbul Pengging merupakan kawasan wisata yang memadukan antara wisata sejarah, wisata budaya, dan wisata alam dalam satu kawasan."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SEJARAH"
+                android:textSize="17dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#212F3C"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#212F3C"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Pengging adalah nama kuno untuk suatu wilayah yang sekarang terletak di antara Solo dan Yogya (kira-kira mencakup wilayah Boyolali dan Klaten serta mungkin Salatiga). Pusatnya sekarang diperkirakan terletak di Banyudono, Boyolali.
+
+Nama Pengging disebut-sebut dalam legenda Rara Jonggrang tentang pembangunan kompleks Candi Prambanan. Selanjutnya, dalam sejumlah babad yang menerangkan penyebaran agama Islam di selatan Jawa wilayah ini kembali disebut-sebut, dengan tokohnya Ki Ageng Pengging. Tokoh ini dikenal sebagai pemberontak di wilayah Kesultanan Demak. Kalangan sejarah di Jawa banyak yang menganggap bahwa Pengging adalah cikal-bakal Kerajaan Pajang, kerajaan yang mengambil alih kekuasaan di Jawa setelah Kesultanan Demak runtuh.
+
+Semenjak berkembangnya Kesultanan Mataram dan masa-masa selanjutnya, wilayah Pengging kehilangan kepentingannya dan pusat pemerintahannya berangsur-angsur menjadi tempat untuk pelaksanaan ritual bagi keluarga penerus Mataram. Pengelolaan situs sejarah ini pada masa kolonial dilakukan oleh pihak Kasunanan Surakarta dan sekarang tanggung jawab berada di tangan Pemerintah Kabupaten Boyolali."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JENIS KOLAM PEMANDIAN"
+                android:textSize="17dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#212F3C"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#212F3C"
+                android:layout_marginTop="20dp"
+                android:text="1. Umbul Temanten"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#212F3C"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Umbul Temanten berbentuk persegi panjang dan memiliki kedalaman kurang lebih 50–170 cm. Di area pemandian ini juga terdapat tempat pemandian khusus untuk anak-anak, yang dilengkapi juga dengan pelampung dan beberapa bola. Pemandian khusus anak-anak ini berada di arah tenggara Umbul Temanten. Selain itu, di kolam pemandian Umbul Temanten ini juga dilengkapi dengan fasilitas 24 kamar ganti dan sejumlah kamar bilas.
+
+
+Menurut cerita masyarakat, asal mula Pemandian Umbul Temanten berawal dari kunjungan Sri Paduka Susuhunan Paku Buwono X yang melihat dua buah sumber air (umbul) yang terletak berdekatan di area Umbul Temanten ini. Setelah melihat kedua umbul tersebut, Sri Paduka Susuhunan Paku Buwono X kemudian berdoa kepada Tuhan agar kedua umbul tersebut dipersatukan. Setelah selesai berdoa, akhirnya permintaan Sri Paduka Susuhunan Paku Buwono X itu dikabulkan Tuhan. Bersatunya kedua umbul itu kemudian diberi nama Umbul Temanten yang diibaratkan menyatunya dua mempelai yang rukun menjadi satu. Peristiwa itu juga sekaligus mengandung piwulang (nasihat) kepada masyarakat bahwa dalam mengarungi hidup berumah tangga, suami isteri harus bisa menjalin hubungan yang rukun."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#212F3C"
+                android:layout_marginTop="20dp"
+                android:text="2. Umbul Ngabean"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#212F3C"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Umbul Ngabean berbentuk bulat dan memiliki kedalaman air sekitar 150 cm. Kolam ini hanya diperuntukkan bagi kalangan orang dewasa. Pelancong dapat berenang dengan leluasa di kolam ini karena kedalaman airnya sama di segala sisinya. Setelah capek berenang, berendam, atau bermain air di kolam pemandian ini, pelancong dapat dudu bersantai di gazebo yang berada di sisi timur kolam pemandian ini. Di gazebo ini, pelancong juga dapat beristirahat dan melihat pemandangan taman yang tertata rapi di pinggiran kolam."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#212F3C"
+                android:layout_marginTop="20dp"
+                android:text="2. Umbul Sungsang"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#212F3C"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:text="Umbul ketiga yang juga tak kalah menariknya bila dikunjungi ialah Umbul Sungsang. Selain keindahan taman dan kesejukan air di kolam Pemandian Umbul Sungsang ini, pelancong juga dapat mengikuti tradisi kungkum (berendam) yang diselenggarakan oleh masyarakat setempat. Menurut pengakuan warga sekitar, pemandian ini merupakan pusat laku batin Kungkum masyarakat Pengging dan tak sedikit pula diikuti oleh para pengunjung yang berasal dari berbagai kota di sekitar Jawa Tengah. Tradisi yang diselenggarakan pada malam Jumat Pahing ini, biasanya dimulai pukul 24.00—03.00 WIB. Untuk mengikuti tradisi Kungkum ini wisatawan tidak dipungut biaya."/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

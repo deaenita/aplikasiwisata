@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.boyolalismartcity.InfoTlatar">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UMBUL TLATAR"
+                android:textSize="20dp"
+                android:textColor="#212F3C"
+                android:layout_gravity="center"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tlatar"
+                android:layout_marginTop="10dp"/>
+            <ImageView
+                android:id="@+id/iv_pano_tlatar"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:src="@drawable/button_pano"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#212F3C"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Obyek Wisata Air Tlatar Boyolali merupakan salah satu dari tiga UPTD andalan Dinas Pariwisata dan Kebudayaan kabupaten Boyolali, Jawa Tengah. Umbul Tlatar adalah ekowisata yang memanfaatkan mata air alami yang keluar terus menerus selama 24 jam dari lapisan batuan vulkanik, yang berada di kaki Gunung Merbabu pada ketinggian sekitar 350 meter dari permukaan laut ini memiliki suasana pedesaan yang alami, asri dan berudara sejuk. Umbul Tlatar menempati lahan seluas 7 hektar dan menyemburkan air dengan debit 650 liter/detik [1] . Ada 2 buah pemandian yaitu Pemandian Umbul Pengilon dan Pemandian Umbul Asem.
+
+Terletak di Dukuh Tlatar, Desa Kebonbimo, Kabupaten Boyolali dengan jarak tempuh dari kota kira-kira 4 km ke arah utara. Pemandian ini adalah pemandian untuk keluarga. Setiap dua hari menjelang bulan Puasa diadakan even Padusan, acara ini juga diselenggarakan di Umbul Pengging dan Pantaran. Acara ini bertujuan untuk mensucikan diri sebelum melaksanakan ibadah puasa."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FASILITAS"
+                android:textSize="17dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#212F3C"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#212F3C"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="40dp"
+                android:text="Fasilitas yang terdapat di Obyek Wisata Umbul Tlatar antara lain Rumah Makan Lesehan, Pemancingan, Kios Cenderamata, Kolam Renang Anak dan Dewasa, Taman Wisata Air, Lapangan Woodball dan Panggung hiburan setiap menjelang bulan Puasa"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.boyolalismartcity.InfoWisata">
+
+    <ImageView
+        android:id="@+id/iv_SmileJava"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:src="@drawable/smilejava"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_SmileJava"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/merbabu" />
+            <ImageView
+                android:id="@+id/iv_TrackingMerbabu"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:src="@drawable/button_merbabu"/>
+
+            <ImageView
+                android:layout_marginTop="50dp"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:src="@drawable/merapi"/>
+            <ImageView
+                android:id="@+id/iv_TrackingMerapi"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:src="@drawable/button_merapi"/>
+
+            <ImageView
+                android:layout_marginTop="50dp"
+                android:layout_width="300dp"
+                android:layout_height="210dp"
+                android:src="@drawable/gancik"/>
+            <ImageView
+                android:id="@+id/iv_Gancik"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:src="@drawable/button_gancik"/>
+
+            <ImageView
+                android:layout_marginTop="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tlatar"/>
+            <ImageView
+                android:id="@+id/iv_Tlatar"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:src="@drawable/button_tlatar"/>
+
+            <ImageView
+                android:layout_marginTop="50dp"
+                android:layout_width="300dp"
+                android:layout_height="230dp"
+                android:src="@drawable/pengging" />
+            <ImageView
+                android:id="@+id/iv_Pengging"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="40dp"
+                android:src="@drawable/button_pengging" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

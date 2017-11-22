@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_menu"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.boyolalismartcity.InfoMerapi">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TRACKING MERAPI"
+                android:textSize="20dp"
+                android:textColor="#212F3C"
+                android:layout_gravity="center"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/merapi"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:id="@+id/iv_pano_merapi"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:src="@drawable/button_pano" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#212F3C"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Gunung Merapi (ketinggian puncak 2.930 m dpl, per 2010) adalah gunung berapi di bagian tengah Pulau Jawa dan merupakan salah satu gunung api teraktif di Indonesia. Lereng sisi selatan berada dalam administrasi Kabupaten Sleman Daerah Istimewa Yogyakarta, dan sisanya berada dalam wilayah Provinsi Jawa Tengah, yaitu Kabupaten Magelang di sisi barat, Kabupaten Boyolalidi sisi utara dan timur, serta Kabupaten Klaten di sisi tenggara. Kawasan hutan di sekitar puncaknya menjadi kawasan Taman Nasional Gunung Merapi sejak tahun 2004.
+
+Gunung ini sangat berbahaya karena menurut catatan modern mengalami erupsi (puncak keaktifan) setiap dua sampai lima tahun sekali dan dikelilingi oleh permukiman yang sangat padat. Sejak tahun 1548, gunung ini sudah meletus sebanyak 68 kali. Kota Magelang dan Kota Yogyakarta adalah kota besar terdekat, berjarak di bawah 30 km dari puncaknya. Di lerengnya masih terdapat permukiman sampai ketinggian 1700 m dan hanya berjarak empat kilometer dari puncak. Oleh karena tingkat kepentingannya ini, Merapi menjadi salah satu dari enam belas gunung api dunia yang termasuk dalam proyek Gunung Api Dekade Ini (Decade Volcanoes)"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GEOLOGI"
+                android:textSize="17dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#212F3C"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#212F3C"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Gunung Merapi adalah gunung termuda dalam rangkaian gunung berapi yang mengarah ke selatan dari Gunung Ungaran. Gunung ini terbentuk karena aktivitas di zona subduksi Lempeng Indo-Australia yang bergerak ke bawah Lempeng Eurasia menyebabkan munculnya aktivitas vulkanik di sepanjang bagian tengah Pulau Jawa. Puncak yang sekarang ini tidak ditumbuhi vegetasi karena aktivitas vulkanik tinggi. Puncak ini tumbuh di sisi barat daya puncak Gunung Batulawang yang lebih tua."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VEGETASI"
+                android:textSize="17dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#212F3C"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#212F3C"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Gunung Merapi di bagian puncak tidak pernah ditumbuhi vegetasi karena aktivitas yang tinggi. Jenis tumbuhan di bagian teratas bertipe alpina khas pegunungan Jawa, seperti Rhododendron dan edeweis jawa. Agak ke bawah terdapat hutan bambu dan tetumbuhan pegunungan tropika. Hutan hujan tropis pegunungan di bagian selatan Merapi merupakan tempat salah satu forma anggrek endemik Vanda tricolor 'Merapi' yang telah langka. Lereng Merapi, khususnya di bawah 1.000 m, merupakan tempat asal dua kultivar salak unggul nasional, yaitu salak 'Pondoh' dan 'Nglumut'."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RUTE PENDAKIAN"
+                android:textSize="17dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#212F3C"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#212F3C"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:text="Gunung Merapi merupakan objek pendakian yang populer, karena gunung ini merupakan gunung yang sangat mempesona. Jalur pendakian yang paling umum dan dekat adalah melalui sisi utara dari Sèlo, Kabupaten Boyolali, Jawa Tengah, tepatnya di Desa Plalangan, Selo, Boyolali, Desa ini terletak di antara Gunung Merapi dan Gunung Merbabu. Pendakian melalui Selo memakan waktu sekitar 4-5 jam hingga ke puncak. Jalur populer lain adalah melalui Kaliurang, Kecamatan Pakem, Kabupaten Sleman, Yogyakarta di sisi selatan. Jalur ini lebih terjal dan memakan waktu sekitar 6-7 jam hingga ke puncak. Jalur alternatif yang lain adalah melalui sisi barat laut, dimulai dari Sawangan, Kabupaten Magelang, Jawa Tengah dan melalui sisi tenggara, dari arah Deles, Kecamatan Kemalang, Kabupaten Klaten, Jawa Tengah."/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
+

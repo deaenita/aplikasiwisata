@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.boyolalismartcity.InfoGancik">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GANCIK HILL TOP"
+                android:textSize="20dp"
+                android:textColor="#212F3C"
+                android:layout_gravity="center"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/gancik"
+                android:layout_marginTop="10dp"/>
+            <ImageView
+                android:id="@+id/iv_pano_gancik"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:src="@drawable/button_pano"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#212F3C"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Gancik Hill Top adalah salah satu wisata berupa gardu pandang di kaki gunung merapi. Bukit gancik memiliki ketinggian 2000Mdpl serta memiliki gardu pandang setinggi 10 meter. Wisata Bukit Gancik ini berada di Dusun Selo Nduwur, Desa Selo, Kecamatan Selo, Kabupaten Boyolali, Jawa Tengah, Indonesia. "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AKSES LOKASI"
+                android:textSize="17dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#212F3C"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#212F3C"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Akses masuk menuju Gancik Hill Top sangat mudah, karena dekat dengan pemukiman penduduk. Lokasi dapat ditempuh dengan menggunakan sepeda motor ataupun berjalan kaki. Letak gardu pandang dapat ditempuh 30 menit dengn berjalan kaki."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HARGA TIKET MASUK"
+                android:textSize="17dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#212F3C"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#212F3C"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:text="Harga untuk masuk Gancik Hill Top adalah Rp.5.000/motor."/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

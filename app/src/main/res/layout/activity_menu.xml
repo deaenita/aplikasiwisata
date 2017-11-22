@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/background_menu"
+    tools:context="com.example.user.boyolalismartcity.Menu">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/logo_byl"
+            android:layout_marginTop="40dp"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/logo_sapi"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_InfoWisata"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_wisata"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            />
+        <ImageView
+            android:id="@+id/iv_TentangKami"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_tentang_kami"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_Keluar"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/button_keluar"
+        android:layout_gravity="center"
+        android:onClick="clickexit"
+        />
+
+    <TextView
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Boyolali Smart City"
+        android:textColor="#212F3C"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
